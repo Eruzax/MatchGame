@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Match Game</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Match Game</h1>
+        <div class="game">
+            <div class="board-container">
+                <div class="board" data-dimension="4"></div>
+                <div class="win">You won!</div>
+            </div>
+            <div class="stats">
+                <button onclick="reset()">Reset</button>
+                <div class="moves">0 moves</div>
+            </div>
+
+            <div class="instructions">
+                <h2>Instructions</h2>
+                <p>Try to find the matching pairs</p>
+                <p>Your score is determined by how many clicks
+                    it takes to match all the cards</p>
+                <p>The lower the score, the better</p>
+            </div>
+            
+        </div>
+    </body>
+</html>
